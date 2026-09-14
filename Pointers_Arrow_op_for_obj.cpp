@@ -13,11 +13,15 @@ class Complex{
 };
 int main() {
     Complex c1;
-    Complex *ptr = &c1;
+    // Complex *ptr = &c1;
     // //* derefernce operator
     // (*ptr).setdata(1,2);
     // (*ptr).getdata();
-    // ARROW OPERATOR (->)
+    // // ARROW OPERATOR (->)
+    // ptr->setdata(1,2);
+    // ptr->getdata();
+    // // Use of New
+    Complex *ptr = new Complex[3];
     ptr->setdata(1,2);
     ptr->getdata();
     return 0;
