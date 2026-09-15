@@ -24,6 +24,7 @@ int main()
     cout << "Enter no of products : ";
     cin >> n;
     Shop *ptr = new Shop[n];
+    
     for (int i = 0; i < n; i++)
     {
         cout << "Enter id : ";
